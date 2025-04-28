@@ -1,0 +1,24 @@
+Started by user [8mha:////4A6/NscRnktiOQh5Kj2bzPs3Cfe9V6FAeIx7o4Uag9iiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/i42025-website-build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/i42025-website-build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/yon-samphorslita/DevOps-Course.git # timeout=10
+Fetching upstream changes from https://github.com/yon-samphorslita/DevOps-Course.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/yon-samphorslita/DevOps-Course.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a57ff3deed0f5a7e5d92c7780994aab06e50355a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a57ff3deed0f5a7e5d92c7780994aab06e50355a # timeout=10
+Commit message: "initial commit"
+ > git rev-list --no-walk a57ff3deed0f5a7e5d92c7780994aab06e50355a # timeout=10
+[i42025-website-build] $ /bin/sh -xe /tmp/jenkins6817979550484696095.sh
++ composer install
+Composer could not find a composer.json file in /var/jenkins_home/workspace/i42025-website-build
+To initialize a project, please create a composer.json file. See https://getcomposer.org/basic-usage
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
